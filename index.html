@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Will James — Front-End &amp; Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Will James, a front-end and full-stack developer with a background in theatre and media planning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="wordmark" href="#top">Will James</a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#arc">Arc</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Primary mobile" hidden>
+    <a href="#arc">Arc</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section id="top" class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="hero-kicker">Charlotte, NC</p>
+        <h1 class="hero-title">
+          I spent a decade learning how to hold an audience's attention.<br>
+          Now I build the interfaces that do it.
+        </h1>
+        <p class="hero-sub">
+          Will James — a front-end &amp; full-stack developer with 5+ years building
+          production interfaces in React, Vue, and Angular. Before code, it was
+          the stage and the media plan. That order matters more than it sounds.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">See the work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-mark" aria-hidden="true">
+        <svg viewBox="0 0 400 480" class="cue-svg">
+          <line x1="60" y1="40" x2="60" y2="440" class="cue-rail"/>
+          <circle cx="60" cy="60" r="7" class="cue-node cue-node--lit"/>
+          <circle cx="60" cy="180" r="7" class="cue-node cue-node--lit"/>
+          <circle cx="60" cy="300" r="7" class="cue-node cue-node--live"/>
+          <circle cx="60" cy="420" r="7" class="cue-node"/>
+          <text x="90" y="66" class="cue-label">Stage</text>
+          <text x="90" y="186" class="cue-label">Media</text>
+          <text x="90" y="306" class="cue-label cue-label--live">Code</text>
+          <text x="90" y="426" class="cue-label cue-label--future">Next cue</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section id="arc" class="arc">
+    <div class="wrap">
+      <h2 class="section-title">The arc</h2>
+      <p class="section-lede">
+        Three acts, one throughline: understand an audience, then build the thing that reaches them.
+      </p>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-marker">01</div>
+          <div class="timeline-body">
+            <h3>Theatre</h3>
+            <p class="timeline-meta">BA, Davidson College</p>
+            <p>
+              Trained to read a room in real time — pacing, tension, attention.
+              It's the same instinct that now tells me when an interface is
+              asking too much of someone.
+            </p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker">02</div>
+          <div class="timeline-body">
+            <h3>Media planning</h3>
+            <p class="timeline-meta">Starcom Worldwide &amp; Midan Marketing</p>
+            <p>
+              Learned to work backward from an audience and a budget to a plan —
+              and to defend that plan with data. Every product decision since has
+              started from the same question: who is this for, actually?
+            </p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker">03</div>
+          <div class="timeline-body">
+            <h3>Web development</h3>
+            <p class="timeline-meta">Northwestern University &amp; Coca-Cola Bottling Consolidated</p>
+            <p>
+              As Associate Director of Digital Communications and Web Developer
+              at Northwestern's Alumni Relations &amp; Development department,
+              and as a Full Stack Developer at Coca-Cola Bottling Consolidated,
+              turned that instinct into shipped software — sites, tools, and
+              systems used by real audiences at scale.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="wrap">
+      <h2 class="section-title">What I build with</h2>
+      <p class="section-lede">
+        Five-plus years across the modern front end, with the back-end and
+        infrastructure range to see a project through end to end.
+      </p>
+
+      <div class="ledger">
+        <div class="ledger-col">
+          <h3>Languages &amp; frameworks</h3>
+          <ul class="ledger-list">
+            <li><span>JavaScript / TypeScript</span></li>
+            <li><span>React</span></li>
+            <li><span>Vue.js</span></li>
+            <li><span>Angular</span></li>
+          </ul>
+        </div>
+        <div class="ledger-col">
+          <h3>Tooling &amp; workflow</h3>
+          <ul class="ledger-list">
+            <li><span>Webpack / Vite</span></li>
+            <li><span>Git</span></li>
+            <li><span>Jest</span></li>
+            <li><span>RESTful APIs</span></li>
+          </ul>
+        </div>
+        <div class="ledger-col">
+          <h3>Platforms &amp; infrastructure</h3>
+          <ul class="ledger-list">
+            <li><span>CMS platforms</span></li>
+            <li><span>Hosting &amp; deployment infrastructure</span></li>
+            <li><span>Browser extensions</span></li>
+            <li><span>Cross-functional &amp; vendor coordination</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="work">
+    <div class="wrap">
+      <h2 class="section-title">Selected work</h2>
+      <p class="section-lede">
+        Two roles, two very different audiences — a university's alumni network
+        and a national beverage manufacturer's internal teams.
+      </p>
+
+      <div class="work-list">
+        <article class="work-item">
+          <div class="work-item-head">
+            <h3>Northwestern University</h3>
+            <p class="work-item-role">Associate Director of Digital Communications &amp; Web Developer</p>
+          </div>
+          <p class="work-item-body">
+            Owned digital communications and web development for Alumni
+            Relations &amp; Development — building and maintaining the sites
+            and tools that keep a large, dispersed alumni community connected
+            to the university.
+          </p>
+        </article>
+
+        <article class="work-item">
+          <div class="work-item-head">
+            <h3>Coca-Cola Bottling Consolidated</h3>
+            <p class="work-item-role">Full Stack Developer</p>
+          </div>
+          <p class="work-item-body">
+            Built and maintained full-stack applications inside a large-scale
+            manufacturing and distribution business, working across the front
+            and back end to support internal systems and teams.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="wrap">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-lede">
+        A mix of client work and side builds — where I own the whole thing,
+        design decisions included.
+      </p>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-card-top">
+            <h3>Lavender Girl Massage &amp; Holistic Health</h3>
+            <p class="project-tags">HTML &middot; CSS &middot; Netlify Forms</p>
+          </div>
+          <p class="project-desc">
+            A single-page site for an independent massage and holistic health
+            practice, designed and built end to end — custom typography, a
+            logo prepared and embedded directly in the page, and a working
+            contact form wired up through Netlify Forms so the client gets
+            inquiries straight to their inbox with no backend to maintain.
+          </p>
+          <ul class="project-facts">
+            <li>Iterative design process directly with the client</li>
+            <li>Custom display typeface for brand voice</li>
+            <li>Serverless form handling via Netlify</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <h3>Alumni Authors CATalogue</h3>
+            <p class="project-tags">Cascade CMS &middot; Vanilla JavaScript &middot; CSV as data source</p>
+          </div>
+          <p class="project-desc">
+            A webpage built to showcase books written by Northwestern alumni
+            authors, along with information about each one. Built in Cascade
+            CMS with vanilla JavaScript, using a CSV file as a lightweight
+            stand-in for a database — with results that are searchable,
+            filterable, and sortable.
+          </p>
+          <ul class="project-facts">
+            <li>Searchable, filterable, sortable results</li>
+            <li>CSV-driven data with no backend required</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <h3>Northwestern Donor Honor Roll</h3>
+            <p class="project-tags">Cascade CMS &middot; Vanilla JavaScript &middot; CSV as data source</p>
+          </div>
+          <p class="project-desc">
+            A full redesign and rebuild of the University's Donor Honor Roll,
+            entrusted to me by the Giving team as a key project for annual
+            donor recognition. Built in Cascade CMS with vanilla JavaScript
+            and a CSV file standing in as the data source, listing donors
+            alongside their level of giving with a clarity and elegance meant
+            to properly showcase supporters' generosity.
+          </p>
+          <ul class="project-facts">
+            <li>Commissioned directly by the Giving team</li>
+            <li>Redesign of an existing, high-visibility page</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <h3>Homecoming and Reunion Weekend Schedule</h3>
+            <p class="project-tags">Cascade CMS &middot; Vanilla JavaScript &middot; CSV as data source</p>
+          </div>
+          <p class="project-desc">
+            A redesign of the Homecoming and Reunion Weekend schedule,
+            focused on usability for the team maintaining it as much as for
+            the alumni reading it. Built in Cascade CMS with vanilla
+            JavaScript and a CSV file as the data source, listing all weekend
+            activity with results sortable and filterable by event type, and
+            built so the schedule can be edited and updated swiftly during a
+            weekend where timing changes fast.
+          </p>
+          <ul class="project-facts">
+            <li>Built for fast, low-friction editing by the team</li>
+            <li>Sortable and filterable by event type</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <h3>CCBC Sales Suite</h3>
+            <p class="project-tags">Angular &middot; .NET &middot; HTML/CSS</p>
+          </div>
+          <p class="project-desc">
+            A set of tools built for Coca-Cola Bottling Consolidated's sales
+            team to execute vendor contracts, replacing and upgrading the
+            system the team had been using before. Built with Angular on the
+            front end and a .NET back end.
+          </p>
+          <ul class="project-facts">
+            <li>Upgrade of a previously manual/legacy contract process</li>
+            <li>Full-stack: Angular front end, .NET back end</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <h2 class="section-title">Let's talk</h2>
+        <p class="section-lede">
+          Open to contract and full-time front-end and full-stack roles.
+          If there's a fit, I'd like to hear about it.
+        </p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn btn-primary btn-large" href="mailto:will@example.com">Email me</a>
+        <a class="btn btn-ghost btn-large" href="#">View résumé</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Will James.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
