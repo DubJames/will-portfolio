@@ -391,6 +391,18 @@ section { padding: 96px 0; }
   font-size: 0.9rem;
   color: var(--slate);
 }
+.project-link {
+  margin: 0;
+}
+.project-link a {
+  color: var(--amber-dim);
+  font-weight: 600;
+  font-size: 0.92rem;
+  text-decoration: none;
+}
+.project-link a:hover {
+  color: var(--ink);
+}
 .project-card--open {
   background: transparent;
   border-style: dashed;
