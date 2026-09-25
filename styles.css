@@ -356,7 +356,7 @@ section { padding: 96px 0; }
 .work-item-logo {
   height: 40px;
   width: auto;
-  max-width: 140px;
+  max-width: 110px;
   object-fit: contain;
   background: var(--paper);
   padding: 6px 10px;
