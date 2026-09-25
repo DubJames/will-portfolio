@@ -186,6 +186,15 @@ h1, h2, h3 {
   gap: 64px;
   align-items: center;
 }
+.hero-headshot {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--amber);
+  margin-bottom: 24px;
+  display: block;
+}
 .hero-kicker {
   font-family: var(--font-body);
   font-size: 0.9rem;
