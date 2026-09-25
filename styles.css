@@ -354,7 +354,6 @@ section { padding: 96px 0; }
   color: var(--paper);
 }
 .work-item-logo {
-  height: 40px;
   width: auto;
   max-width: 110px;
   object-fit: contain;
